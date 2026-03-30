@@ -190,3 +190,8 @@
   padding: 20px;
   background-color: var(--accent-bg);
 }
+
+a.active{
+  color: red;
+  font-weight: bold;
+}

@@ -3,9 +3,8 @@ import { useNavigate } from "react-router-dom";
 function Login() {
   const navigate = useNavigate();
 
-  function handleLogin() {
-    localStorage.setItem("auth", "true"); // fake login
-    navigate("/dashboard");
+  const handleLogin = ()=>{
+    navigate('/about')
   }
 
   return (
